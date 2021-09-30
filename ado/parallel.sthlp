@@ -184,7 +184,7 @@ locations and therefore pointers may no longer be accurate.{p_end}
 used within each child process.{p_end}
 {synopt:{opt randt:ype}}String. Tells parallel whether to use the current seed
 (-current-), the current datetime (-datetime-) or random.org API (-random.org-) to
-generate the seeds for each child processes (please read the Description section).{p_end}
+generate the seeds for each child processes (please read the Description section). Default value is -datetime-.{p_end}
 {synopt:{opt proc:essors}}Integer. If running on StataMP, sets the number of processors
 each child process should use. Default value is 0 (do nothing).{p_end}
 {synopt:{opt t:imeout}}Integer. If a child process hasn't started, how much time in seconds
